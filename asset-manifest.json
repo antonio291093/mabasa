@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/mabasa/static/css/main.3e8f550d.css",
-    "main.js": "/mabasa/static/js/main.b54e583a.js",
+    "main.js": "/mabasa/static/js/main.0f7287aa.js",
     "static/js/453.0454c00c.chunk.js": "/mabasa/static/js/453.0454c00c.chunk.js",
     "static/media/servicio5.png": "/mabasa/static/media/servicio5.fd0927b7bbaf6bf69e81.png",
+    "static/media/servicio6.png": "/mabasa/static/media/servicio6.14cd8d84a5e51e4f374e.png",
     "static/media/servicio3.png": "/mabasa/static/media/servicio3.a6f2d7941fcf14367887.png",
-    "static/media/servicio6.png": "/mabasa/static/media/servicio6.c770eab96c29afa9f4ac.png",
     "static/media/servicio4.png": "/mabasa/static/media/servicio4.074cc6165521a6b1df6d.png",
     "static/media/servicio2.png": "/mabasa/static/media/servicio2.a406e94778880e0b9f49.png",
     "static/media/fa-solid-900.ttf": "/mabasa/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -39,11 +39,11 @@
     "static/media/slick.woff": "/mabasa/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mabasa/index.html",
     "main.3e8f550d.css.map": "/mabasa/static/css/main.3e8f550d.css.map",
-    "main.b54e583a.js.map": "/mabasa/static/js/main.b54e583a.js.map",
+    "main.0f7287aa.js.map": "/mabasa/static/js/main.0f7287aa.js.map",
     "453.0454c00c.chunk.js.map": "/mabasa/static/js/453.0454c00c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e8f550d.css",
-    "static/js/main.b54e583a.js"
+    "static/js/main.0f7287aa.js"
   ]
 }
