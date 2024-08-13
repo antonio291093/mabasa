@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mabasa/static/css/main.3e8f550d.css",
-    "main.js": "/mabasa/static/js/main.0f7287aa.js",
+    "main.css": "/mabasa/static/css/main.ac15eeb5.css",
+    "main.js": "/mabasa/static/js/main.e017874b.js",
     "static/js/453.0454c00c.chunk.js": "/mabasa/static/js/453.0454c00c.chunk.js",
     "static/media/servicio5.png": "/mabasa/static/media/servicio5.fd0927b7bbaf6bf69e81.png",
     "static/media/servicio6.png": "/mabasa/static/media/servicio6.14cd8d84a5e51e4f374e.png",
@@ -9,11 +9,24 @@
     "static/media/servicio4.png": "/mabasa/static/media/servicio4.074cc6165521a6b1df6d.png",
     "static/media/servicio2.png": "/mabasa/static/media/servicio2.a406e94778880e0b9f49.png",
     "static/media/fa-solid-900.ttf": "/mabasa/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/img3.jpg": "/mabasa/static/media/img3.f29c6134cb6e5c5d1389.jpg",
     "static/media/slider2.jpg": "/mabasa/static/media/slider2.f033573e2db1f6146a13.jpg",
+    "static/media/img4.jpg": "/mabasa/static/media/img4.1c56fa1092f6814fb20c.jpg",
+    "static/media/img2.jpg": "/mabasa/static/media/img2.b10856a8af5b06764117.jpg",
+    "static/media/img14.jpg": "/mabasa/static/media/img14.a182b1c36bb35e96c3ad.jpg",
+    "static/media/img8.jpg": "/mabasa/static/media/img8.02bd2edb1be8a49f5f28.jpg",
+    "static/media/img6.jpg": "/mabasa/static/media/img6.2f363355646acfbd823b.jpg",
+    "static/media/img11.jpg": "/mabasa/static/media/img11.b0b1d8c57a7fee822aad.jpg",
+    "static/media/img13.jpg": "/mabasa/static/media/img13.a8474c43995d9a756d12.jpg",
+    "static/media/img1.jpg": "/mabasa/static/media/img1.9ddd91dfcd6ca50e8726.jpg",
     "static/media/fa-brands-400.ttf": "/mabasa/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/slider6.jpg": "/mabasa/static/media/slider6.efdb43fc8dbe5e9c4aaf.jpg",
+    "static/media/img12.jpg": "/mabasa/static/media/img12.454cdb53396a8e932021.jpg",
     "static/media/client2.png": "/mabasa/static/media/client2.9af6252cebb78ed2e768.png",
+    "static/media/img10.jpg": "/mabasa/static/media/img10.2bb42dc65068e8b85a18.jpg",
     "static/media/servicio1.png": "/mabasa/static/media/servicio1.1e9c2e8a9939f305918c.png",
+    "static/media/img5.jpg": "/mabasa/static/media/img5.20544a4634e4f3c95c6e.jpg",
+    "static/media/img9.jpg": "/mabasa/static/media/img9.7f5040db1291c1347106.jpg",
     "static/media/fa-solid-900.woff2": "/mabasa/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/slider5.jpg": "/mabasa/static/media/slider5.817cd2b74fb1d8278a11.jpg",
     "static/media/slider3.jpg": "/mabasa/static/media/slider3.9318a1ad9e9b46fb0729.jpg",
@@ -21,6 +34,7 @@
     "static/media/slider1.jpg": "/mabasa/static/media/slider1.6f3f370510d9b789ed43.jpg",
     "static/media/fa-brands-400.woff2": "/mabasa/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/slider4.jpg": "/mabasa/static/media/slider4.6bfed94e4f8f869ffc76.jpg",
+    "static/media/img7.jpg": "/mabasa/static/media/img7.a1e7cb0d72c6f412bb8f.jpg",
     "static/media/logo.ico": "/mabasa/static/media/logo.27fc264e7457aa85f7e8.ico",
     "static/media/fa-regular-400.ttf": "/mabasa/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/client1.png": "/mabasa/static/media/client1.a78ca4b871fd2d4ef870.png",
@@ -38,12 +52,12 @@
     "static/media/slick.ttf": "/mabasa/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mabasa/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mabasa/index.html",
-    "main.3e8f550d.css.map": "/mabasa/static/css/main.3e8f550d.css.map",
-    "main.0f7287aa.js.map": "/mabasa/static/js/main.0f7287aa.js.map",
+    "main.ac15eeb5.css.map": "/mabasa/static/css/main.ac15eeb5.css.map",
+    "main.e017874b.js.map": "/mabasa/static/js/main.e017874b.js.map",
     "453.0454c00c.chunk.js.map": "/mabasa/static/js/453.0454c00c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e8f550d.css",
-    "static/js/main.0f7287aa.js"
+    "static/css/main.ac15eeb5.css",
+    "static/js/main.e017874b.js"
   ]
 }
