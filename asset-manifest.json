@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mabasa/static/css/main.ac15eeb5.css",
-    "main.js": "/mabasa/static/js/main.2a6881fa.js",
+    "main.js": "/mabasa/static/js/main.59d58ec6.js",
     "static/js/453.0454c00c.chunk.js": "/mabasa/static/js/453.0454c00c.chunk.js",
     "static/media/servicio5.png": "/mabasa/static/media/servicio5.fd0927b7bbaf6bf69e81.png",
     "static/media/servicio3.png": "/mabasa/static/media/servicio3.a6f2d7941fcf14367887.png",
@@ -56,11 +56,11 @@
     "static/media/slick.woff": "/mabasa/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mabasa/index.html",
     "main.ac15eeb5.css.map": "/mabasa/static/css/main.ac15eeb5.css.map",
-    "main.2a6881fa.js.map": "/mabasa/static/js/main.2a6881fa.js.map",
+    "main.59d58ec6.js.map": "/mabasa/static/js/main.59d58ec6.js.map",
     "453.0454c00c.chunk.js.map": "/mabasa/static/js/453.0454c00c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac15eeb5.css",
-    "static/js/main.2a6881fa.js"
+    "static/js/main.59d58ec6.js"
   ]
 }
