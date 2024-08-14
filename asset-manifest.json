@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mabasa/static/css/main.ac15eeb5.css",
-    "main.js": "/mabasa/static/js/main.46fd7251.js",
+    "main.js": "/mabasa/static/js/main.2a6881fa.js",
     "static/js/453.0454c00c.chunk.js": "/mabasa/static/js/453.0454c00c.chunk.js",
     "static/media/servicio5.png": "/mabasa/static/media/servicio5.fd0927b7bbaf6bf69e81.png",
-    "static/media/servicio6.png": "/mabasa/static/media/servicio6.14cd8d84a5e51e4f374e.png",
     "static/media/servicio3.png": "/mabasa/static/media/servicio3.a6f2d7941fcf14367887.png",
     "static/media/servicio4.png": "/mabasa/static/media/servicio4.074cc6165521a6b1df6d.png",
     "static/media/servicio2.png": "/mabasa/static/media/servicio2.a406e94778880e0b9f49.png",
+    "static/media/servicio6.png": "/mabasa/static/media/servicio6.74543f8f2ad17925740c.png",
     "static/media/fa-solid-900.ttf": "/mabasa/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/img3.jpg": "/mabasa/static/media/img3.f29c6134cb6e5c5d1389.jpg",
     "static/media/slider2.jpg": "/mabasa/static/media/slider2.f033573e2db1f6146a13.jpg",
@@ -56,11 +56,11 @@
     "static/media/slick.woff": "/mabasa/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mabasa/index.html",
     "main.ac15eeb5.css.map": "/mabasa/static/css/main.ac15eeb5.css.map",
-    "main.46fd7251.js.map": "/mabasa/static/js/main.46fd7251.js.map",
+    "main.2a6881fa.js.map": "/mabasa/static/js/main.2a6881fa.js.map",
     "453.0454c00c.chunk.js.map": "/mabasa/static/js/453.0454c00c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac15eeb5.css",
-    "static/js/main.46fd7251.js"
+    "static/js/main.2a6881fa.js"
   ]
 }
