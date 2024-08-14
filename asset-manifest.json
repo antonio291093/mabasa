@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mabasa/static/css/main.ac15eeb5.css",
-    "main.js": "/mabasa/static/js/main.273cba22.js",
+    "main.js": "/mabasa/static/js/main.46fd7251.js",
     "static/js/453.0454c00c.chunk.js": "/mabasa/static/js/453.0454c00c.chunk.js",
     "static/media/servicio5.png": "/mabasa/static/media/servicio5.fd0927b7bbaf6bf69e81.png",
     "static/media/servicio6.png": "/mabasa/static/media/servicio6.14cd8d84a5e51e4f374e.png",
@@ -17,12 +17,12 @@
     "static/media/img14.jpg": "/mabasa/static/media/img14.a182b1c36bb35e96c3ad.jpg",
     "static/media/img8.jpg": "/mabasa/static/media/img8.02bd2edb1be8a49f5f28.jpg",
     "static/media/img6.jpg": "/mabasa/static/media/img6.2f363355646acfbd823b.jpg",
+    "static/media/img12.jpg": "/mabasa/static/media/img12.c8fb870dfaac03bb6ae4.jpg",
+    "static/media/img13.jpg": "/mabasa/static/media/img13.4c8168ba2b396379c01a.jpg",
+    "static/media/slider6.jpg": "/mabasa/static/media/slider6.fa33f97de885b6bd4e7f.jpg",
     "static/media/img11.jpg": "/mabasa/static/media/img11.b0b1d8c57a7fee822aad.jpg",
-    "static/media/img13.jpg": "/mabasa/static/media/img13.a8474c43995d9a756d12.jpg",
     "static/media/img1.jpg": "/mabasa/static/media/img1.9ddd91dfcd6ca50e8726.jpg",
     "static/media/fa-brands-400.ttf": "/mabasa/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/slider6.jpg": "/mabasa/static/media/slider6.efdb43fc8dbe5e9c4aaf.jpg",
-    "static/media/img12.jpg": "/mabasa/static/media/img12.454cdb53396a8e932021.jpg",
     "static/media/servicio8.jpg": "/mabasa/static/media/servicio8.454cdb53396a8e932021.jpg",
     "static/media/client2.png": "/mabasa/static/media/client2.9af6252cebb78ed2e768.png",
     "static/media/img10.jpg": "/mabasa/static/media/img10.2bb42dc65068e8b85a18.jpg",
@@ -56,11 +56,11 @@
     "static/media/slick.woff": "/mabasa/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mabasa/index.html",
     "main.ac15eeb5.css.map": "/mabasa/static/css/main.ac15eeb5.css.map",
-    "main.273cba22.js.map": "/mabasa/static/js/main.273cba22.js.map",
+    "main.46fd7251.js.map": "/mabasa/static/js/main.46fd7251.js.map",
     "453.0454c00c.chunk.js.map": "/mabasa/static/js/453.0454c00c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac15eeb5.css",
-    "static/js/main.273cba22.js"
+    "static/js/main.46fd7251.js"
   ]
 }
