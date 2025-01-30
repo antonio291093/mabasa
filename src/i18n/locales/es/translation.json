@@ -1,0 +1,87 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "gallery": "Galería"
+  },
+
+  "about": {
+    "title": "¿Quiénes somos?",
+    "description": "En MABASA, nos especializamos en brindar soluciones integrales en automatización, diseño, maquinados, soldadura y proyectos de ingeniería. Nuestro compromiso es ofrecer servicios de alta calidad que satisfagan las necesidades específicas de nuestros clientes en diversos sectores industriales."
+  },
+
+  "companyInfo": {
+    "mission": {
+      "title": "Misión",
+      "description": "Ofrecemos soluciones innovadoras de acuerdo a las necesidades y presupuesto de nuestros clientes, con atención personalizada y oportuna."
+    },
+    "vision": {
+      "title": "Visión",
+      "description": "Queremos ser la mejor alternativa de las empresas para integrarse al futuro a través de nuestras soluciones, siempre distinguidos por la calidad y profesionalismo en cada uno de nuestros servicios."
+    },
+    "qualityPolicy": {
+      "title": "Política de Calidad",
+      "description": "Entregar un servicio de calidad a través del cumplimiento de los requerimientos del Cliente y ofreciendo soluciones innovadoras. Desarrollar a nuestros Ingenieros a través de capacitación especializada, liderazgo y compromiso."
+    }
+  },
+
+  "googleMap": {
+    "contactTitle": "Contacto",
+    "openingHours": "Horario de atención a clientes 9:00 AM a 5:30 PM",
+    "addressTitle": "Dirección",
+    "address": "Correo Mayor #1493-3. Colonia Postal Cerritos, Saltillo, Coahuila, México",
+    "emailTitle": "Email",
+    "phoneTitle": "Teléfono"
+  },
+
+  "ourClients": {
+    "title": "Nuestros Clientes"
+  },
+
+  "services": {
+    "title": "Servicios",
+    "service1": {
+      "title": "ESTACIONES HIDRÁULICAS AUTOMATIZADAS",
+      "item1": "Diseño y fabricación.",
+      "item2": "Diseño conforme requerimientos de producción."
+    },
+    "service2": {
+      "title": "CONVEYOR",
+      "item1": "Fabricación y diseño de conveyor a requerimientos de cliente."
+    },
+    "service3": {
+      "title": "ESTACIONES NEUMÁTICAS, DISEÑO Y FABRICACIÓN."
+    },
+    "service4": {
+      "title": "GRÚAS Y EQUIPO DE IZAJE",
+      "item1": "Diseño y desarrollo de equipo de izaje desde productos de usuario."
+    },
+    "service5": {
+      "title": "RACKS Y SOLDADURAS MIC",
+      "item1": "Fabricación de racks, estantería, conveyor.",
+      "item2": "Fabricación de soportes, estructuras y piezas de diseño especial.",
+      "item3": "Diseño y fabricación de racks."
+    },
+    "service6": {
+      "title": "MAQUINADOS",
+      "item1": "Maquinados de alta calidad.",
+      "item2": "Manufactura de componentes Industriales.",
+      "item3": "Desarrollo de Fixtures y mejora en mismos."
+    },
+    "service7": {
+      "title": "SISTEMA ANDON",
+      "item1": "Proyectos multidisciplinarios para satisfacer las necesidades del cliente."
+    },
+    "service8": {
+      "title": "DISEÑO",
+      "item1": "Diseño de ingeniería CAD, CAM, CAE.",
+      "item2": "Diseño mecánico, eléctrico, software."
+    },
+    "service9": {
+      "title": "CABINA DE EXTRACCIÓN",
+      "item1": "Diseño y fabricación de cabinas conforme necesidad del cliente."
+    }
+  }
+}

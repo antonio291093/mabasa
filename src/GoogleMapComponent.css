@@ -1,0 +1,74 @@
+.map-container {
+  display: flex;
+  flex-direction: column; /* Apilar elementos verticalmente */
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Elimina el margen por defecto del body */
+  overflow-x: hidden; /* Evita el desplazamiento lateral global */  
+}
+
+.map {
+  width: 960px;
+  height: 680px;
+}
+
+.map-title {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.map-text {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.map-details {    
+  display: grid;
+  grid-template-columns: repeat(3, 300px); /* Tres columnas con ancho fijo de 300px */
+  grid-template-rows: repeat(2, auto); /* Dos filas con altura automática */
+  gap: 20px; /* Espacio entre columnas y filas */
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column; /* Apilar elementos verticalmente */
+  align-items: center; /* Alinear elementos verticalmente */
+  gap: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.card-details img.Icon {
+  width: 32px; /* Ajusta el tamaño del ícono según sea necesario */
+  height: 32px; /* Ajusta el tamaño del ícono según sea necesario */
+}
+
+.card-details h3 {
+  margin: 0; /* Elimina el margen predeterminado */
+  font-size: 24px;
+}
+
+.card-details p {
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+.card-details a {
+  color: blue; /* Color del enlace */
+  text-decoration: underline; /* Subrayar el enlace */
+}
+
+@media (max-width: 1023px) {
+  .map {
+      width: 100%; /* Ajustar el ancho del mapa al 100% del contenedor */
+      height: 400px; /* Ajustar la altura del mapa */
+  }
+
+  .map-details {
+      grid-template-columns: 1fr; /* Una columna */
+      grid-template-rows: auto; /* Filas automáticas */
+      gap: 20px; /* Espacio entre filas */
+      padding: 20px; /* Ajustar el padding */
+  }
+}

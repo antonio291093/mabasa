@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
+import About from './About';
+import Header from './Header';
+import SliderHead from './SliderHead';
+import CompanyInfo from './CompanyInfo';
+import Services from './Services';
+import OurClients from './OurClients';
+import GoogleMapComponent from './GoogleMapComponent';
+import Gallery from './ImageGallery'; // Importa tu componente de galería
+import './i18n/i18n'; // Importar la configuración de i18next
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename="/mabasa">
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route exact path="/" element={
+            <main>
+              <About />
+              <SliderHead />
+              <CompanyInfo />
+              <Services />
+              <OurClients />
+              <GoogleMapComponent />
+            </main>
+          } />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

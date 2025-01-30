@@ -1,0 +1,87 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "gallery": "Gallery"
+  },
+
+  "about": {
+    "title": "Who are we?",
+    "description": "At MABASA, we specialize in providing comprehensive solutions in automation, design, machining, welding, and engineering projects. Our commitment is to deliver high-quality services that meet the specific needs of our clients in various industrial sectors."
+  },
+
+  "companyInfo": {
+    "mission": {
+      "title": "Mission",
+      "description": "We offer innovative solutions tailored to the needs and budget of our clients, with personalized and timely attention."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "We aim to be the best alternative for companies to integrate into the future through our solutions, always distinguished by the quality and professionalism in each of our services."
+    },
+    "qualityPolicy": {
+      "title": "Quality Policy",
+      "description": "Deliver a quality service by meeting customer requirements and offering innovative solutions. Develop our engineers through specialized training, leadership, and commitment."
+    }
+  },
+
+  "googleMap": {
+    "contactTitle": "Contact",
+    "openingHours": "Customer service hours from 9:00 AM to 5:30 PM",
+    "addressTitle": "Address",
+    "address": "Correo Mayor #1493-3. Postal Cerritos Neighborhood, Saltillo, Coahuila, Mexico",
+    "emailTitle": "Email",
+    "phoneTitle": "Phone"
+  },
+
+  "ourClients": {
+    "title": "Our Clients"
+  },
+
+  "services": {
+    "title": "Services",
+    "service1": {
+      "title": "AUTOMATED HYDRAULIC STATIONS",
+      "item1": "Design and manufacturing.",
+      "item2": "Design according to production requirements."
+    },
+    "service2": {
+      "title": "CONVEYOR",
+      "item1": "Manufacturing and design of conveyor according to customer requirements."
+    },
+    "service3": {
+      "title": "PNEUMATIC STATIONS, DESIGN AND MANUFACTURING."
+    },
+    "service4": {
+      "title": "CRANES AND LIFTING EQUIPMENT",
+      "item1": "Design and development of lifting equipment from user products."
+    },
+    "service5": {
+      "title": "RACKS AND MIC WELDING",
+      "item1": "Manufacturing of racks, shelving, conveyor.",
+      "item2": "Manufacturing of supports, structures, and special design parts.",
+      "item3": "Design and manufacturing of racks."
+    },
+    "service6": {
+      "title": "MACHINING",
+      "item1": "High-quality machining.",
+      "item2": "Manufacturing of industrial components.",
+      "item3": "Development of fixtures and improvements."
+    },
+    "service7": {
+      "title": "ANDON SYSTEM",
+      "item1": "Multidisciplinary projects to meet customer needs."
+    },
+    "service8": {
+      "title": "DESIGN",
+      "item1": "CAD, CAM, CAE engineering design.",
+      "item2": "Mechanical, electrical, software design."
+    },
+    "service9": {
+      "title": "EXTRACTION CABIN",
+      "item1": "Design and manufacturing of cabins according to customer needs."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.company-info {
+  display: grid;
+  grid-template-columns: repeat(3, 300px); /* Tres columnas de igual ancho */
+  gap: 20px; /* Espacio entre columnas */
+  padding: 20px;
+  background-color: #EEECE6;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;  
+  font-family: 'Roboto', sans-serif;
+}
+
+.column {
+  background-color: #EEECE6;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;    
+  transition: transform 0.5s ease;
+  height: 300px;	
+}
+
+.column:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+}
+
+.column h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+img.Icon {
+  width: 64px; /* Ajusta el tamaño del ícono según sea necesario */
+  height: 64px; /* Ajusta el tamaño del ícono según sea necesario */
+}
+
+@media only screen and (max-width: 1023px) {      
+  .company-info {
+    grid-template-columns: 1fr; /* Una columna de ancho completo */
+    gap: 10px; /* Espacio entre filas */    
+  }
+
+  .column {
+    height: auto; /* Ajusta la altura automáticamente */
+    padding: 20px;
+  }
+}

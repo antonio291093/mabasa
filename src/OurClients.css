@@ -1,0 +1,77 @@
+.clients-main {
+    background-color: #EEECE6;
+    display: grid;
+    grid-template-columns: repeat(3, 300px); /* Tres columnas con ancho fijo de 300px */    
+    gap: 20px; /* Espacio entre columnas y filas */
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clients-title {
+    grid-column: span 3; /* El título ocupa las tres columnas */
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.card-client {
+    width: 100%; /* Ajustar al ancho de la columna */
+    height: 10rem;
+    border-radius: 10px;
+    overflow: hidden;    
+    position: relative;
+    color: var(--color-primary-white);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-out; /* Añadir transición para la transformación */
+}
+
+.card-client img {
+    position: absolute;
+    object-fit: contain; /* Ajustar la imagen dentro del contenedor */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    transition: transform 0.3s ease-out, opacity 0.2s ease-out, filter 0.2s ease-out; /* Añadir transición para la transformación */
+}
+
+.card-content-client {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-client:hover {
+    transform: scale(1.1); /* Aplicar zoom al contenedor */
+}
+
+.card-client:hover img {
+    transform: scale(1.05); /* Aplicar zoom a la imagen */
+}
+
+@media only screen and (max-width: 1023px) {
+    .clients-main {
+        grid-template-columns: 1fr; /* Una columna */
+        grid-template-rows: repeat(3, auto); /* Tres filas con altura automática */
+        gap: 20px; /* Espacio entre filas */
+    }
+
+    .clients-title {
+        grid-column: span 1; /* El título ocupa una columna */
+    }
+
+    .card-client {
+        height: 150px; /* Ajustar la altura automáticamente */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-client img {
+        position: static; /* Quitar posición absoluta */
+        width: 100%;
+        height: auto; /* Ajustar la altura automáticamente */
+    }
+}

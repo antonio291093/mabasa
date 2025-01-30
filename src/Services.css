@@ -1,0 +1,224 @@
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .services-main {
+    background-color: #EEECE6;
+    display: grid;
+    grid-template-columns: repeat(1, 300px); /* Tres columnas con ancho fijo de 300px */
+    grid-template-rows: repeat(6, auto); /* Dos filas con altura automática */
+    gap: 20px; /* Espacio entre columnas y filas */
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .services-title {
+    grid-column: span 1; /* El título ocupa las tres columnas */
+    text-align: center;    
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    width: 100%; /* Ajustar al ancho de la columna */
+    height: 30rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: var(--color-primary-white);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    margin-top: 40px;
+    position: absolute;
+    object-fit: contain; /* Ajustar la imagen dentro del contenedor */
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;            
+  }
+  
+  .card h3 {      
+    text-align: center;      
+    margin: 0;      
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .card ul {
+    text-align: center;
+    position: absolute;      
+    max-width: 80%;      
+    inset: auto auto 80px 30px;
+    list-style-type: disc; /* Estilo de lista con puntos */
+    padding-left: 20px; /* Espacio para los puntos */
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  }      
+
+  .material-symbols-outlined {
+    vertical-align: middle;
+  }
+
+}
+
+@media only screen and (min-width: 769px){
+    /* Colors */
+    :root {
+      --color-primary-white: rgb(0, 0, 0);
+    }
+
+    .services-main {
+      background-color: #EEECE6;
+      display: grid;
+      grid-template-columns: repeat(3, 300px); /* Tres columnas con ancho fijo de 300px */
+      grid-template-rows: repeat(2, auto); /* Dos filas con altura automática */
+      gap: 20px; /* Espacio entre columnas y filas */
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .services-title {
+      grid-column: span 3; /* El título ocupa las tres columnas */
+      text-align: center;    
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      width: 100%; /* Ajustar al ancho de la columna */
+      height: 36rem;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      position: relative;
+      color: var(--color-primary-white);
+      box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      position: absolute;
+      object-fit: contain; /* Ajustar la imagen dentro del contenedor */
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.9;
+      transition: opacity .2s ease-out, filter .2s ease-out; /* Añadir transición para el filtro */
+    }
+
+    .card h3 {
+      position: absolute;
+      inset: auto auto 30px 30px;
+      margin: 0;
+      transition: inset .3s .3s ease-out;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .card ul {
+      position: absolute;
+      opacity: 0;
+      max-width: 80%;
+      transition: opacity .3s ease-out;
+      inset: auto auto 80px 30px;
+      list-style-type: disc; /* Estilo de lista con puntos */
+      padding-left: 20px; /* Espacio para los puntos */
+      text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    }
+
+    .card a {
+      position: absolute;
+      opacity: 0;
+      max-width: 80%;
+      transition: opacity .3s ease-out;
+      inset: auto auto 40px 30px;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .card:hover h3 {
+      inset: auto auto 220px 30px;
+      transition: inset .3s ease-out;
+    }
+
+    .card:hover ul,
+    .card:hover a {
+      opacity: 1;
+      transition: opacity .5s .1s ease-in;
+    }
+
+    .card:hover img {
+      transition: opacity .3s ease-in, filter .3s ease-in; /* Añadir transición para el filtro */
+      opacity: 1;
+      filter: blur(8px); /* Aplicar el efecto de difuminado */
+    }
+
+    .material-symbols-outlined {
+      vertical-align: middle;
+    }
+  }
+
+ 
+  
+  @media only screen and (min-width: 426px) and (max-width: 768px) {
+    .services-main {
+      background-color: #EEECE6;
+      display: grid;
+      grid-template-columns: repeat(2, 300px); /* Tres columnas con ancho fijo de 300px */
+      grid-template-rows: repeat(3, auto); /* Dos filas con altura automática */
+      gap: 20px; /* Espacio entre columnas y filas */
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .services-title {
+      grid-column: span 2; /* El título ocupa las tres columnas */
+      text-align: center;    
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      width: 100%; /* Ajustar al ancho de la columna */
+      height: 36rem;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      position: relative;
+      color: var(--color-primary-white);
+      box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card img {
+      margin-top: 40px;
+      position: absolute;
+      object-fit: contain; /* Ajustar la imagen dentro del contenedor */
+      width: 100%;
+      height: 50%;
+      top: 0;
+      left: 0;            
+    }
+    
+    .card h3 {      
+      text-align: center;      
+      margin: 0;      
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .card ul {
+      text-align: center;
+      position: absolute;      
+      max-width: 80%;      
+      inset: auto auto 80px 30px;
+      list-style-type: disc; /* Estilo de lista con puntos */
+      padding-left: 20px; /* Espacio para los puntos */
+      text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    }      
+
+    .material-symbols-outlined {
+      vertical-align: middle;
+    }
+  }

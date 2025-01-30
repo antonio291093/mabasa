@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Didot:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* Resto de tu código CSS */
+.About {    
+    padding: 40px;
+    background-color: #EEECE6;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.About h2 {
+    font-family: 'Didot', serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.About p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 767px) {      
+    .About {
+        width: 100%;        
+        background-color: #EEECE6;
+        margin-top: 100px;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total */
+        overflow-x: hidden; /* Evita el desplazamiento horizontal */
+        
+    }
+
+    .About h2 {
+        font-family: 'Didot', serif;
+        font-size: 28px;
+        font-weight: 400;
+        
+    }
+
+    .About p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}

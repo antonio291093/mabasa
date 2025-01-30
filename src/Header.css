@@ -1,0 +1,97 @@
+.App-header {
+    background-color: #EEECE6;
+    padding: 20px;
+    color: white;
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0;
+    width: 100%; /* Asegura que el header ocupe todo el ancho */
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    display: flex;
+    align-items: center;
+  }  
+  
+  .Header-logo {
+    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-right: 40px; /* Espacio entre el logo y otros elementos del nav */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos del nav */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Elimina el margen por defecto */
+    display: flex; /* Usa flexbox para alinear los elementos */
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .menu {
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.6s ease-out;
+      transition: max-height 0.6s ease-in;
+    }
+  
+    .menu.visible {
+      max-height: 500px; /* Ajusta según el contenido */
+    }
+  
+    .list {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .Header-logo {
+      margin: 0 auto; /* Centra el logo horizontalmente */
+    }
+  
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu-toggle {
+      display: block;
+      background-color: #EEECE6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      font-size: 30px; /* Tamaño del icono */
+      position: absolute;
+      left: 10px; /* Ajusta la posición a la izquierda */
+      top: 10px; /* Ajusta la posición vertical */
+    }
+  
+    .menu-toggle .fas {
+      color: #333; /* Color del icono */
+    }
+  }
+
+  @media only screen and (min-width: 768px) {  
+    .menu-toggle {
+      display: none; /* Oculta el botón en pantallas grandes */
+    }  
+  }
+  
