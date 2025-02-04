@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mabasa/static/css/main.b93be06b.css",
-    "main.js": "/mabasa/static/js/main.1efdb72f.js",
+    "main.js": "/mabasa/static/js/main.91f7f644.js",
     "static/js/453.0454c00c.chunk.js": "/mabasa/static/js/453.0454c00c.chunk.js",
     "static/media/servicio5.png": "/mabasa/static/media/servicio5.fd0927b7bbaf6bf69e81.png",
     "static/media/servicio3.png": "/mabasa/static/media/servicio3.a6f2d7941fcf14367887.png",
@@ -43,6 +43,7 @@
     "static/media/fa-regular-400.ttf": "/mabasa/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/client1.png": "/mabasa/static/media/client1.a78ca4b871fd2d4ef870.png",
     "static/media/logoEN.png": "/mabasa/static/media/logoEN.b73f4206c14356b45576.png",
+    "static/media/logo.png": "/mabasa/static/media/logo.71811c62f83d4a6b4048.png",
     "static/media/fa-regular-400.woff2": "/mabasa/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/vision.png": "/mabasa/static/media/vision.64e3f378f49e31a17887.png",
     "static/media/ubicacion.png": "/mabasa/static/media/ubicacion.dddb7c5ea5ae7658725f.png",
@@ -58,11 +59,11 @@
     "static/media/slick.woff": "/mabasa/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mabasa/index.html",
     "main.b93be06b.css.map": "/mabasa/static/css/main.b93be06b.css.map",
-    "main.1efdb72f.js.map": "/mabasa/static/js/main.1efdb72f.js.map",
+    "main.91f7f644.js.map": "/mabasa/static/js/main.91f7f644.js.map",
     "453.0454c00c.chunk.js.map": "/mabasa/static/js/453.0454c00c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b93be06b.css",
-    "static/js/main.1efdb72f.js"
+    "static/js/main.91f7f644.js"
   ]
 }
