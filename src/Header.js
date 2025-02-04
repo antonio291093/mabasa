@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'; // Importar useTranslation
-import logo from './logo.ico'; // Asegúrate de que la ruta sea correcta
+import logoES from './logo.ico'; // Asegúrate de que la ruta sea correcta
+import logoEN from './logoEN.png'; // Asegúrate de que la ruta sea correcta
 import './Header.css';
 
 function Header() {
@@ -16,6 +17,9 @@ function Header() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+
+  // Determina qué logotipo mostrar según el idioma
+  const logo = i18n.language === 'es' ? logoES : logoEN;
 
   return (
     <header className="App-header">
