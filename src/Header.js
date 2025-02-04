@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'; // Importar useTranslation
 import logoES from './logo.ico'; // Asegúrate de que la ruta sea correcta
 import logoEN from './logoEN.png'; // Asegúrate de que la ruta sea correcta
+import logofinal from './logo.png'
 import './Header.css';
 
 function Header() {
@@ -19,7 +20,7 @@ function Header() {
   };
 
   // Determina qué logotipo mostrar según el idioma
-  const logo = i18n.language === 'es' ? logoES : logoEN;
+  const logo = i18n.language === 'es' ? logofinal : logofinal;
 
   return (
     <header className="App-header">
