@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mabasa/static/css/main.b93be06b.css",
-    "main.js": "/mabasa/static/js/main.ae850156.js",
+    "main.js": "/mabasa/static/js/main.a4a6ac35.js",
     "static/js/453.0454c00c.chunk.js": "/mabasa/static/js/453.0454c00c.chunk.js",
-    "static/media/servicio2.png": "/mabasa/static/media/servicio2.e7e0915e7fef1b90b3d2.png",
     "static/media/servicio5.png": "/mabasa/static/media/servicio5.fd0927b7bbaf6bf69e81.png",
-    "static/media/servicio6.png": "/mabasa/static/media/servicio6.b3f53f135bb3f82f6929.png",
     "static/media/servicio4.png": "/mabasa/static/media/servicio4.074cc6165521a6b1df6d.png",
-    "static/media/servicio3.png": "/mabasa/static/media/servicio3.688e34fb46a5b6ed8d9c.png",
+    "static/media/servicio6.png": "/mabasa/static/media/servicio6.ba5b917afaeccb65ca4e.png",
+    "static/media/servicio2.png": "/mabasa/static/media/servicio2.b377eed084000cb02ffc.png",
+    "static/media/servicio3.png": "/mabasa/static/media/servicio3.e62d65a0678443d617f2.png",
     "static/media/fa-solid-900.ttf": "/mabasa/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/img3.jpg": "/mabasa/static/media/img3.f29c6134cb6e5c5d1389.jpg",
     "static/media/slider2.jpg": "/mabasa/static/media/slider2.f033573e2db1f6146a13.jpg",
@@ -59,11 +59,11 @@
     "static/media/slick.woff": "/mabasa/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mabasa/index.html",
     "main.b93be06b.css.map": "/mabasa/static/css/main.b93be06b.css.map",
-    "main.ae850156.js.map": "/mabasa/static/js/main.ae850156.js.map",
+    "main.a4a6ac35.js.map": "/mabasa/static/js/main.a4a6ac35.js.map",
     "453.0454c00c.chunk.js.map": "/mabasa/static/js/453.0454c00c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b93be06b.css",
-    "static/js/main.ae850156.js"
+    "static/js/main.a4a6ac35.js"
   ]
 }
