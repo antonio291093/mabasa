@@ -44,7 +44,10 @@ function Services() {
         <div className="card">
             <img src={image8} alt="Servicio Ocho" />
             <div className="card-content">
-                <h3>{t('services.service3.title')}</h3>            
+                <h3>{t('services.service3.title')}</h3>     
+                <ul>
+                    <li>{t('services.service3.item1')}</li>                    
+                </ul>             
             </div>
         </div>
 
@@ -109,6 +112,7 @@ function Services() {
                 <h3>{t('services.service9.title')}</h3>
                 <ul>
                     <li>{t('services.service9.item1')}</li>                
+                    <li>{t('services.service9.item2')}</li>                
                 </ul>            
             </div>
         </div>

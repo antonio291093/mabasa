@@ -48,11 +48,12 @@
       "item2": "Design according to production requirements."
     },
     "service2": {
-      "title": "CONVEYOR",
-      "item1": "Manufacturing and design of conveyor according to customer requirements."
+      "title": "CONVEYORS",
+      "item1": "Conveyor manufacturing."
     },
     "service3": {
-      "title": "PNEUMATIC STATIONS, DESIGN AND MANUFACTURING."
+      "title": "PNEUMATIC STATIONS, DESIGN AND MANUFACTURING.",
+      "item1": "Substrate and vinyl alignment stations for automotive parts"
     },
     "service4": {
       "title": "CRANES AND LIFTING EQUIPMENT",
@@ -81,7 +82,8 @@
     },
     "service9": {
       "title": "EXTRACTION CABIN",
-      "item1": "Design and manufacturing of cabins according to customer needs."
+      "item1": "Design and manufacturing of cabins according to customer needs.",
+      "item2": "Operator work tables"
     }
   }
 }

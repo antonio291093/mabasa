@@ -48,11 +48,12 @@
       "item2": "Diseño conforme requerimientos de producción."
     },
     "service2": {
-      "title": "CONVEYOR",
-      "item1": "Fabricación y diseño de conveyor a requerimientos de cliente."
+      "title": "DISEÑO Y FABRIACIÓN DE CONVEYORS",
+      "item1": "Fabricación de conveyor."
     },
     "service3": {
-      "title": "ESTACIONES NEUMÁTICAS, DISEÑO Y FABRICACIÓN."
+      "title": "ESTACIONES NEUMÁTICAS, DISEÑO Y FABRICACIÓN.",
+      "item1": "Estaciones de alineación sustrato y vinil para partes automotrices"
     },
     "service4": {
       "title": "GRÚAS Y EQUIPO DE IZAJE",
@@ -81,7 +82,8 @@
     },
     "service9": {
       "title": "CABINA DE EXTRACCIÓN",
-      "item1": "Diseño y fabricación de cabinas conforme necesidad del cliente."
+      "item1": "Diseño y fabricación de cabinas conforme necesidad del cliente.",
+      "item2": "Mesas de trabajo operadores."
     }
   }
 }
