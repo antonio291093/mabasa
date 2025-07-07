@@ -23,7 +23,7 @@
 }
 
 .map-details {    
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 300px); /* Tres columnas con ancho fijo de 300px */
   grid-template-rows: repeat(2, auto); /* Dos filas con altura automática */
   gap: 20px; /* Espacio entre columnas y filas */
