@@ -12,7 +12,7 @@ import image6 from "./images/servicio6.png";
 import image7 from "./images/servicio7.jpg";
 import image8 from "./images/servicio8.jpg";
 import image9 from "./images/servicio9.jpg";
-import image10 from "./images/servicio10.png";
+import image10 from "./images/servicio10.jpg";
 
 function Services() {
   const { t } = useTranslation(); // Usar el hook useTranslation
@@ -124,6 +124,7 @@ function Services() {
           <h3>{t("services.service10.title")}</h3>
           <ul>
             <li>{t("services.service10.item1")}</li>
+            <li>{t("services.service10.item2")}</li>
           </ul>
         </div>
       </div>
