@@ -1,40 +1,31 @@
 import React from "react";
-import { useTranslation } from "react-i18next"; // Importar useTranslation
-import "./OurClients.css"; // Cambia el nombre del archivo CSS
+import { useTranslation } from "react-i18next";
+import "./OurClients.css";
 
-// Importa las imágenes
 import image1 from "./images/client1.png";
 import image2 from "./images/client2.png";
 import image3 from "./images/client3.png";
 import image4 from "./images/cliente4.png";
 import image5 from "./images/cliente5.png";
 
+const CLIENTS = [image1, image2, image3, image4, image5];
+
 const OurClients = () => {
-  const { t } = useTranslation(); // Usar el hook useTranslation
+  const { t } = useTranslation();
 
   return (
-    <main className="clients-main">
-      <h2 className="clients-title">{t("ourClients.title")}</h2>
-      <div className="card-client">
-        <img src={image1} alt="Cliente 1" />
+    <section id="clients" className="clients-section">
+      <span className="section-eyebrow">{t("ourClients.eyebrow")}</span>
+      <hr className="hr" />
+      <p className="clients-description">{t("ourClients.description")}</p>
+      <div className="clients-grid">
+        {CLIENTS.map((src, i) => (
+          <div className="client-logo" key={i}>
+            <img src={src} alt="Cliente" />
+          </div>
+        ))}
       </div>
-
-      <div className="card-client">
-        <img src={image2} alt="Cliente 2" />
-      </div>
-
-      <div className="card-client">
-        <img src={image3} alt="Cliente 3" />
-      </div>
-
-      <div className="card-client">
-        <img src={image4} alt="Cliente 4" />
-      </div>
-
-      <div className="card-client">
-        <img src={image5} alt="Cliente 5" />
-      </div>
-    </main>
+    </section>
   );
 };
 

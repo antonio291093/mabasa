@@ -1,8 +1,7 @@
 import React from "react";
-import { useTranslation } from "react-i18next"; // Importar useTranslation
+import { useTranslation } from "react-i18next";
 import "./Services.css";
 
-// Importa las imágenes
 import image1 from "./images/servicio1.png";
 import image2 from "./images/servicio2.png";
 import image3 from "./images/servicio3.png";
@@ -14,121 +13,51 @@ import image8 from "./images/servicio8.jpg";
 import image9 from "./images/servicio9.jpg";
 import image10 from "./images/servicio10.jpg";
 
+const SERVICES = [
+  { key: "service1", image: image7 },
+  { key: "service2", image: image9 },
+  { key: "service3", image: image8 },
+  { key: "service4", image: image1 },
+  { key: "service5", image: image2 },
+  { key: "service6", image: image3 },
+  { key: "service7", image: image4 },
+  { key: "service8", image: image5 },
+  { key: "service9", image: image6 },
+  { key: "service10", image: image10 },
+];
+
 function Services() {
-  const { t } = useTranslation(); // Usar el hook useTranslation
+  const { t } = useTranslation();
 
   return (
-    <div className="services-main" id="services">
-      <h2 className="services-title">{t("services.title")}</h2>
+    <section id="services" className="services-section">
+      <span className="section-eyebrow">{t("services.eyebrow")}</span>
+      <hr className="hr" />
 
-      <div className="card">
-        <img src={image7} alt="Servicio Siete" />
-        <div className="card-content">
-          <h3>{t("services.service1.title")}</h3>
-          <ul>
-            <li>{t("services.service1.item1")}</li>
-            <li>{t("services.service1.item2")}</li>
-          </ul>
-        </div>
-      </div>
+      <div className="blueprint services-sheet">
+        <i className="corner tl"></i><i className="corner tr"></i><i className="corner bl"></i><i className="corner br"></i>
 
-      <div className="card">
-        <img src={image9} alt="Servicio Nueve" />
-        <div className="card-content">
-          <h3>{t("services.service2.title")}</h3>
-          <ul>
-            <li>{t("services.service2.item1")}</li>
-          </ul>
-        </div>
-      </div>
+        <header className="services-sheet-header">
+          <span className="services-sheet-name">MABASA — {t("services.title")}</span>
+          <span className="services-sheet-meta">MB-10</span>
+          <span className="services-sheet-meta">Rev 2026</span>
+        </header>
 
-      <div className="card">
-        <img src={image8} alt="Servicio Ocho" />
-        <div className="card-content">
-          <h3>{t("services.service3.title")}</h3>
-          <ul>
-            <li>{t("services.service3.item1")}</li>
-          </ul>
-        </div>
+        {SERVICES.map((svc, i) => (
+          <div className="svc-row" key={svc.key}>
+            <span className="svc-index">{String(i + 1).padStart(2, "0")}</span>
+            <figure className="duotone svc-thumb">
+              <img src={svc.image} alt="" />
+            </figure>
+            <div className="svc-body">
+              <h3>{t(`services.${svc.key}.title`)}</h3>
+              <p>{t(`services.${svc.key}.description`)}</p>
+            </div>
+            <span className="tag tag-accent svc-tag">{t(`services.${svc.key}.tag`)}</span>
+          </div>
+        ))}
       </div>
-
-      <div className="card">
-        <img src={image1} alt="Servicio Uno" />
-        <div className="card-content">
-          <h3>{t("services.service4.title")}</h3>
-          <ul>
-            <li>{t("services.service4.item1")}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="card">
-        <img src={image2} alt="Servicio Dos" />
-        <div className="card-content">
-          <h3>{t("services.service5.title")}</h3>
-          <ul>
-            <li>{t("services.service5.item1")}</li>
-            <li>{t("services.service5.item2")}</li>
-            <li>{t("services.service5.item3")}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="card">
-        <img src={image3} alt="Servicio Tres" />
-        <div className="card-content">
-          <h3>{t("services.service6.title")}</h3>
-          <ul>
-            <li>{t("services.service6.item1")}</li>
-            <li>{t("services.service6.item2")}</li>
-            <li>{t("services.service6.item3")}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="card">
-        <img src={image4} alt="Servicio Cuatro" />
-        <div className="card-content">
-          <h3>{t("services.service7.title")}</h3>
-          <ul>
-            <li>{t("services.service7.item1")}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="card">
-        <img src={image5} alt="Servicio Cinco" />
-        <div className="card-content">
-          <h3>{t("services.service8.title")}</h3>
-          <ul>
-            <li>{t("services.service8.item1")}</li>
-            <li>{t("services.service8.item2")}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="card">
-        <img src={image6} alt="Servicio Seis" />
-        <div className="card-content">
-          <h3>{t("services.service9.title")}</h3>
-          <ul>
-            <li>{t("services.service9.item1")}</li>
-            <li>{t("services.service9.item2")}</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="card">
-        <img src={image10} alt="Servicio Diez" />
-        <div className="card-content">
-          <h3>{t("services.service10.title")}</h3>
-          <ul>
-            <li>{t("services.service10.item1")}</li>
-            <li>{t("services.service10.item2")}</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 }
 

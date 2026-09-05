@@ -2,14 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css";
-import About from "./About";
 import Header from "./Header";
-import SliderHead from "./SliderHead";
+import Hero from "./Hero";
 import CompanyInfo from "./CompanyInfo";
 import Services from "./Services";
 import OurClients from "./OurClients";
 import GoogleMapComponent from "./GoogleMapComponent";
-import Gallery from "./ImageGallery"; // Importa tu componente de galería
+import Gallery from "./Gallery";
 import "./i18n/i18n"; // Importar la configuración de i18next
 
 function App() {
@@ -23,8 +22,7 @@ function App() {
             path="/"
             element={
               <main>
-                <About />
-                <SliderHead />
+                <Hero />
                 <CompanyInfo />
                 <Services />
                 <OurClients />

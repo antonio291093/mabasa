@@ -1,52 +1,34 @@
-.company-info {
+.about-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 104px clamp(20px, 5vw, 72px) 88px;
+}
+
+.about-grid {
   display: grid;
-  grid-template-columns: repeat(3, 300px); /* Tres columnas de igual ancho */
-  gap: 20px; /* Espacio entre columnas */
-  padding: 20px;
-  background-color: #EEECE6;
-  margin-top: 20px;
-  justify-content: center;
-  align-items: center;  
-  font-family: 'Roboto', sans-serif;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: clamp(28px, 3.4vw, 52px);
 }
 
-.column {
-  background-color: #EEECE6;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 4px;    
-  transition: transform 0.5s ease;
-  height: 300px;	
+.about-card {
+  padding: 28px 26px 30px;
 }
 
-.column:hover {
-  transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+.about-card-icon {
+  display: block;
+  margin-bottom: 22px;
 }
 
-.column h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.about-card h3 {
+  font-size: 23px;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
 }
 
-.column p {
-  font-size: 16px;
-  line-height: 1.5;
+.about-card p {
+  font-size: 15px;
+  line-height: 1.6;
   margin: 0;
-}
-
-img.Icon {
-  width: 64px; /* Ajusta el tamaño del ícono según sea necesario */
-  height: 64px; /* Ajusta el tamaño del ícono según sea necesario */
-}
-
-@media only screen and (max-width: 1023px) {      
-  .company-info {
-    grid-template-columns: 1fr; /* Una columna de ancho completo */
-    gap: 10px; /* Espacio entre filas */    
-  }
-
-  .column {
-    height: auto; /* Ajusta la altura automáticamente */
-    padding: 20px;
-  }
+  color: color-mix(in srgb, var(--color-text) 78%, transparent);
 }

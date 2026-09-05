@@ -4,15 +4,31 @@
     "about": "About Us",
     "services": "Services",
     "contact": "Contact",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "clients": "Clients",
+    "quote": "Request a quote"
   },
-
   "about": {
     "title": "Who we are?",
     "description": "At MABASA, we specialize in providing comprehensive solutions in automation, design, machining, welding, and engineering projects. Our commitment is to deliver high-quality services that meet the specific needs of our clients in various industrial sectors."
   },
-
+  "hero": {
+    "eyebrow": "Saltillo, Coahuila · since 2011",
+    "titleLine1": "Automation",
+    "titleLine2": "engineering built for",
+    "titleLine3": "the plant floor",
+    "description": "Test cells, control and SCADA, conveyors and purpose-built devices. Engineered, manufactured and installed by our own engineers — no middlemen between the plant problem and the people who solve it.",
+    "statYears": "Years",
+    "statProjects": "Projects",
+    "canvasOnLine": "CELL 01 — ON LINE",
+    "canvasCellShort": "CELL 01",
+    "canvasStation": "STN. ",
+    "canvasCycle": "CYCLE",
+    "canvasParts": "PARTS",
+    "canvasScroll": "Scroll"
+  },
   "companyInfo": {
+    "eyebrow": "01 · Operating principles",
     "mission": {
       "title": "Mission",
       "description": "We offer innovative solutions tailored to the needs and budget of our clients, with personalized and timely attention."
@@ -26,69 +42,101 @@
       "description": "Deliver a quality service by meeting customer requirements and offering innovative solutions. Develop our engineers through specialized training, leadership, and commitment."
     }
   },
-
   "googleMap": {
+    "eyebrow": "04 · Contact",
     "contactTitle": "Contact",
-    "openingHours": "Customer service hours from 9:00 AM to 5:30 PM",
-    "addressTitle": "Address",
+    "heroTitle": "Bring us the plant problem",
+    "heroDescription": "Describe it in one email — process, cycle time and the downtime you can take. You get scope and an estimate back, not a catalogue.",
+    "hoursTitle": "Hours",
+    "openingHours": "Monday to Friday, 9:00 to 17:30",
+    "addressTitle": "Shop & offices",
     "address": "Correo Mayor #1493-3. Postal Cerritos Neighborhood, Saltillo, Coahuila, Mexico",
     "emailTitle": "Email",
-    "phoneTitle": "Phone"
+    "phoneTitle": "Phone",
+    "footerTagline": "Automation · Design · Machining · Welding"
   },
-
   "ourClients": {
-    "title": "Our Clients"
+    "eyebrow": "03 · Clients",
+    "title": "Our Clients",
+    "description": "Plants across northern Mexico currently running equipment designed, built and installed by MABASA."
   },
-
   "services": {
+    "eyebrow": "02 · Capability catalogue",
     "title": "Services",
     "service1": {
       "title": "AUTOMATED HYDRAULIC STATIONS",
       "item1": "Design and manufacturing.",
-      "item2": "Design according to production requirements."
+      "item2": "Design according to production requirements.",
+      "description": "Designed and built to the production requirement: force and stroke control, cycle logging, out-of-tolerance lockout.",
+      "tag": "Hydraulics"
     },
     "service2": {
       "title": "CONVEYORS",
-      "item1": "Conveyor manufacturing."
+      "item1": "Conveyor manufacturing.",
+      "description": "Roller and belt conveyors, modular and reconfigurable to the plant layout, with zero-pressure accumulation zones.",
+      "tag": "Conveying"
     },
     "service3": {
       "title": "PNEUMATIC STATIONS, DESIGN AND MANUFACTURING.",
-      "item1": "Substrate and vinyl alignment stations for automotive parts"
+      "item1": "Substrate and vinyl alignment stations for automotive parts",
+      "description": "Substrate and vinyl alignment for automotive parts, with orientation poka-yoke and a step-guided cycle.",
+      "tag": "Pneumatics"
     },
     "service4": {
       "title": "CRANES AND LIFTING EQUIPMENT",
-      "item1": "Design and development of lifting equipment from user products."
+      "item1": "Design and development of lifting equipment from user products.",
+      "description": "Lifting equipment developed from the actual product and the ergonomics of the operator who will handle it.",
+      "tag": "Lifting"
     },
     "service5": {
       "title": "RACKS AND MIC WELDING",
       "item1": "Manufacturing of racks, shelving, conveyor.",
       "item2": "Manufacturing of supports, structures, and special design parts.",
-      "item3": "Design and manufacturing of racks."
+      "item3": "Design and manufacturing of racks.",
+      "description": "Racks, shelving, brackets and special-design structures. MIG welding with a written procedure and material traceability.",
+      "tag": "Structures"
     },
     "service6": {
       "title": "MACHINING",
       "item1": "High-quality machining.",
       "item2": "Manufacturing of industrial components.",
-      "item3": "Development of fixtures and improvements."
+      "item3": "Development of fixtures and improvements.",
+      "description": "Industrial components and precision fixtures, with documented improvements over the design already on the floor.",
+      "tag": "Machining"
     },
     "service7": {
       "title": "ANDON SYSTEM",
-      "item1": "Multidisciplinary projects to meet customer needs."
+      "item1": "Multidisciplinary projects to meet customer needs.",
+      "description": "Line signalling and visual control: every station's state visible from the aisle, with downtime logging.",
+      "tag": "Control"
     },
     "service8": {
       "title": "DESIGN",
       "item1": "CAD, CAM, CAE engineering design.",
-      "item2": "Mechanical, electrical, software design."
+      "item2": "Mechanical, electrical, software design.",
+      "description": "CAD, CAM and CAE. Mechanical, electrical and software design validated on screen before any steel is cut.",
+      "tag": "Engineering"
     },
     "service9": {
       "title": "EXTRACTION CABIN",
       "item1": "Design and manufacturing of cabins according to customer needs.",
-      "item2": "Operator work tables"
+      "item2": "Operator work tables",
+      "description": "Booths and workbenches built to the process requirement, the extraction needed and the operator's reach.",
+      "tag": "Environment"
     },
     "service10": {
       "title": "HIGH-QUALITY 3D PRINTING",
       "item1": "High-quality 3D printing that guarantees precise, detailed parts.",
-      "item2": "Faithful to the digital design, ideal for prototypes and industrial production."
+      "item2": "Faithful to the digital design, ideal for prototypes and industrial production.",
+      "description": "Accurate parts, faithful to the digital model — for rapid prototyping and low-volume industrial production.",
+      "tag": "Additive"
     }
+  },
+  "gallery": {
+    "title": "Photo Gallery of Completed Projects",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "imageLabel": "Image"
   }
 }

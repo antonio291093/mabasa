@@ -1,77 +1,37 @@
-.clients-main {
-    background-color: #EEECE6;
-    display: grid;
-    grid-template-columns: repeat(3, 300px); /* Tres columnas con ancho fijo de 300px */    
-    gap: 20px; /* Espacio entre columnas y filas */
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    font-family: 'Roboto', sans-serif;
+.clients-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px clamp(20px, 5vw, 72px) 96px;
 }
 
-.clients-title {
-    grid-column: span 3; /* El título ocupa las tres columnas */
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 24px;
+.clients-description {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 62ch;
+  margin: 0 0 40px;
+  color: color-mix(in srgb, var(--color-text) 78%, transparent);
 }
 
-.card-client {
-    width: 100%; /* Ajustar al ancho de la columna */
-    height: 10rem;
-    border-radius: 10px;
-    overflow: hidden;    
-    position: relative;
-    color: var(--color-primary-white);
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-out; /* Añadir transición para la transformación */
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: clamp(20px, 2.6vw, 40px);
 }
 
-.card-client img {
-    position: absolute;
-    object-fit: contain; /* Ajustar la imagen dentro del contenedor */
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.9;
-    transition: transform 0.3s ease-out, opacity 0.2s ease-out, filter 0.2s ease-out; /* Añadir transición para la transformación */
+.client-logo {
+  border: 1px solid var(--color-divider);
+  aspect-ratio: 16 / 9;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  filter: grayscale(1) opacity(.62);
+  transition: filter .2s ease-out;
 }
-
-.card-content-client {
-    text-align: center;
-    margin-top: 10px;
+.client-logo:hover {
+  filter: grayscale(0) opacity(1);
 }
-
-.card-client:hover {
-    transform: scale(1.1); /* Aplicar zoom al contenedor */
-}
-
-.card-client:hover img {
-    transform: scale(1.05); /* Aplicar zoom a la imagen */
-}
-
-@media only screen and (max-width: 1023px) {
-    .clients-main {
-        grid-template-columns: 1fr; /* Una columna */
-        grid-template-rows: repeat(3, auto); /* Tres filas con altura automática */
-        gap: 20px; /* Espacio entre filas */
-    }
-
-    .clients-title {
-        grid-column: span 1; /* El título ocupa una columna */
-    }
-
-    .card-client {
-        height: 150px; /* Ajustar la altura automáticamente */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-client img {
-        position: static; /* Quitar posición absoluta */
-        width: 100%;
-        height: auto; /* Ajustar la altura automáticamente */
-    }
+.client-logo img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
 }
