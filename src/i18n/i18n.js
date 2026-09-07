@@ -20,6 +20,13 @@ i18n
       },
     },
     fallbackLng: 'es', // Idioma por defecto
+    detection: {
+      // No usar el idioma del navegador/crawler: arrancar siempre en
+      // español salvo que el usuario ya haya elegido inglés antes
+      // (con el selector ES/EN del header), guardado en localStorage.
+      order: ['localStorage', 'cookie'],
+      caches: ['localStorage'],
+    },
     interpolation: {
       escapeValue: false, // No escapar HTML en las traducciones
     },
