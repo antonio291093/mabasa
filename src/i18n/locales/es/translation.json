@@ -130,6 +130,14 @@
       "item2": "Fieles al diseño digital, ideales para prototipos y producción industrial",
       "description": "Piezas precisas y fieles al modelo digital, para prototipo rápido y para producción industrial de bajo volumen.",
       "tag": "Aditivo"
+    },
+    "viewPhotos": "Ver más fotos",
+    "hidePhotos": "Ocultar fotos",
+    "viewLarge": "Ver imagen ampliada",
+    "service11": {
+      "title": "RETROFIT DE ESTACIONES",
+      "description": "Retrofit a estaciones para nuevas revisiones.",
+      "tag": "Retrofit"
     }
   },
   "gallery": {

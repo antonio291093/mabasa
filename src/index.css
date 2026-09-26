@@ -38,6 +38,11 @@
   --shadow-lg: 0 12px 32px color-mix(in srgb, #2b2b2d 22%, transparent);
 }
 
+:root { --nav-h: 76px; }
+@media (max-width: 1100px) { :root { --nav-h: 66px; } }
+
+section[id] { scroll-margin-top: var(--nav-h); }
+
 body {
   margin: 0;
   font-family: var(--font-body);

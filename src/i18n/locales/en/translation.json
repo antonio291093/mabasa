@@ -130,6 +130,14 @@
       "item2": "Faithful to the digital design, ideal for prototypes and industrial production.",
       "description": "Accurate parts, faithful to the digital model — for rapid prototyping and low-volume industrial production.",
       "tag": "Additive"
+    },
+    "viewPhotos": "View more photos",
+    "hidePhotos": "Hide photos",
+    "viewLarge": "View enlarged image",
+    "service11": {
+      "title": "STATION RETROFIT",
+      "description": "Station retrofits for new revisions.",
+      "tag": "Retrofit"
     }
   },
   "gallery": {

@@ -4,8 +4,8 @@
   z-index: 1000;
   display: flex;
   align-items: center;
-  gap: 28px;
-  height: 61px;
+  gap: clamp(16px, 2vw, 28px);
+  height: var(--nav-h);
   padding-inline: clamp(20px, 5vw, 72px);
   background: color-mix(in srgb, var(--color-bg) 88%, transparent);
   backdrop-filter: blur(8px);
@@ -19,14 +19,14 @@
 }
 
 .site-nav-logo {
-  height: 30px;
+  height: calc(var(--nav-h) - 26px);
   width: auto;
 }
 
 .site-nav-menu {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: clamp(16px, 2vw, 28px);
 }
 
 .site-nav-menu a {
@@ -58,14 +58,14 @@
   margin-left: auto;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   .menu-toggle {
     display: block;
   }
 
   .site-nav-menu {
     position: fixed;
-    top: 61px;
+    top: var(--nav-h);
     left: 0;
     right: 0;
     flex-direction: column;

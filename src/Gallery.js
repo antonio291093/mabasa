@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import Lightbox from "./Lightbox";
 import "./Gallery.css";
 
 import slider1 from "./images/slider1.jpg";
@@ -28,26 +29,9 @@ const TOTAL = IMAGES.length;
 function Gallery() {
   const { t } = useTranslation();
   const [lbIndex, setLbIndex] = useState(null);
-  const open = lbIndex !== null;
 
   const closeLB = () => setLbIndex(null);
   const stepLB = (dir) => setLbIndex((cur) => (cur + dir + TOTAL) % TOTAL);
-
-  useEffect(() => {
-    if (!open) return undefined;
-    document.body.style.overflow = "hidden";
-    const onKey = (e) => {
-      if (e.key === "Escape") closeLB();
-      else if (e.key === "ArrowLeft") stepLB(-1);
-      else if (e.key === "ArrowRight") stepLB(1);
-    };
-    document.addEventListener("keydown", onKey);
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open]);
 
   return (
     <div className="gallery-page">
@@ -70,22 +54,7 @@ function Gallery() {
         </div>
       </section>
 
-      <div
-        className={`gallery-lb${open ? " gallery-lb-open" : ""}`}
-        aria-hidden={open ? "false" : "true"}
-        onClick={(e) => { if (e.target === e.currentTarget) closeLB(); }}
-      >
-        <button className="gallery-lb-close" type="button" aria-label={t("gallery.close")} onClick={closeLB}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
-        </button>
-        <button className="gallery-lb-nav gallery-lb-prev" type="button" aria-label={t("gallery.prev")} onClick={() => stepLB(-1)}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 6l-6 6 6 6" /></svg>
-        </button>
-        {open && <img className="gallery-lb-img" src={IMAGES[lbIndex]} alt="" />}
-        <button className="gallery-lb-nav gallery-lb-next" type="button" aria-label={t("gallery.next")} onClick={() => stepLB(1)}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 6l6 6-6 6" /></svg>
-        </button>
-      </div>
+      <Lightbox images={IMAGES} index={lbIndex} onClose={closeLB} onStep={stepLB} />
     </div>
   );
 }
